@@ -82,7 +82,7 @@ def verificar_servidor(server, ssh_host, ssh_username, ssh_password):
 
     # Conexão com o banco de dados PostgreSQL
     db_connection = psycopg2.connect(
-        database="checkcontainer",
+        database="checkcontainers",
         user="anderson123",
         password="anderson123",
         host="localhost",
